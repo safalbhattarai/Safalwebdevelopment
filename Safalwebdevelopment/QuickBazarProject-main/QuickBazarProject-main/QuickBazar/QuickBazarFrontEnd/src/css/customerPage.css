@@ -1,0 +1,89 @@
+.customer-page {
+    background: #f6f4ef;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.customer-page-header {
+    display: flex;
+    height: 12vh;
+    width: 79vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    margin-top: 4px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 10px 10px 10px -1px rgba(119, 111, 93, 0.52);
+    color: black;
+}
+
+.customer-page-header h1 {
+    font-size: 3rem;
+}
+
+.customer-page-right {
+    position: relative;
+    margin-left: 19.7vw;
+}
+
+.id-box3 {
+    min-width: 6rem;
+}
+
+.name-box3 {
+    min-width: 18rem;
+}
+
+.no-of-customer {
+    margin-top: 1rem;
+    padding: 2vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.no-of-customer h2 {
+    font-size: x-large;
+}
+
+.table1 {
+    color: black;
+    font-size: x-large;
+    margin: 10rem auto; /* Adjust margin to center horizontally */
+    width: 80%; /* Set a width to control the size of the table */
+    border: 1px solid #ccc; /* Add border for better visualization */
+    border-collapse: collapse; /* Collapse borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Styles for table headings */
+.table1 th {
+    padding: 10px;
+    text-align: center; /* Center headings horizontally */
+    vertical-align: middle; /* Center headings vertically */
+    border: 1px solid #ccc; /* Add border */
+}
+
+/* Styles for table data */
+.table1 td {
+    padding: 10px;
+    text-align: center; /* Center data horizontally */
+    vertical-align: middle; /* Center data vertically */
+    border: 1px solid #ccc; /* Add border */
+}
+
+/* Styles for delete button */
+.delete-btn2 {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for delete icon */
+.delete-btn2 svg {
+    color: red;
+    font-size: 1.2em;
+}
+

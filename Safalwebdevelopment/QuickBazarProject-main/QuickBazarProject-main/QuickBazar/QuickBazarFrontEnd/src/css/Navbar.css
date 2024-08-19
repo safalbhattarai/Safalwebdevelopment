@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin: 0 1rem; /* Add margin of 1rem around the li elements */
+}
+
+/*body {*/
+/*    background-color: skyblue; !* Set the background color to sky blue *!*/
+/*}*/
+
+.main-nav {
+    width: 100%;
+    height: 10rem;
+    display: grid;
+    background-color: white;
+    grid-template-columns: 9rem 1fr 3fr 0.5fr 9rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    position: fixed; /* Make the navigation bar fixed at the top */
+    top: 0; /* Align the navigation bar to the top */
+}
+
+.logo {
+
+    display: flex;
+    background-color: transparent;
+    grid-column: 2/3;
+    justify-content: start;
+    align-items: center;
+    height: 5rem; /* Set the height of the logo */
+    margin: 2.5rem 0; /* Set the margin to 2.5rem between top and bottom */
+    text-align: center;
+}
+.logo-text {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem; /* Adjust margin as needed */
+
+}
+
+.logo h2, .logo h1 {
+    margin-right: 1rem; /* Adjust margin between h2 and h1 */
+    color: black;
+}
+
+.search-bar {
+    display: grid;
+    grid-column: 3/4;
+    justify-content: start;
+    align-items: center;
+}
+
+.search-bar ul {
+    height: 10rem;
+    width: 100%; /* Fill the entire width of the grid column */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.search-bar li {
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+
+}
+
+.search-wrapper {
+    background-color: transparent;
+    position: relative;
+    height: 100%;
+
+}
+
+
+
+.login-register {
+    grid-column: 4/5;
+}
+
+
+
+.search-wrapper input[type="search"] {
+    padding: 0.5rem; /* Add padding to create space between text and border */
+    padding-right: 30px; /* Adjust this value to ensure the icon fits properly */
+    background: #faf7f2;
+    color: black;
+    font-family: Arial;
+    border-radius: 6px;
+    height: 4rem;
+    width: 60rem;
+
+}
+
+.search-wrapper placeholder {
+    background: black;
+}
+
+.search-wrapper input[type="search"]::placeholder {
+    font-family: Arial;
+    color: black; /* Change the color of the placeholder text to black */
+    text-align: center; /* Center the text horizontally */
+    line-height: 2rem; /* Adjust the line height to vertically center the text */
+    padding-top: 0.5rem;
+
+}
+.search-wrapper input[type="search"]:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+
+.search-wrapper .search-icon {
+    position: absolute;
+    top: 60%;
+    right: 9px; /* Adjust the right value to adjust the position of the icon */
+    transform: translateY(-50%);
+    color: black;
+    font-size: 1.6rem; /* Adjust the font size as needed */
+}
+
+.search-bar .post-button button{
+    font-size: 1rem;
+    border-radius: 6px;
+    height: 4rem;
+
+}
+
+.menu-page {
+    background: #faf7f2;
+}
+
+button:hover {
+    background: #faf7f2;
+    color: black;
+
+}
+
+button{
+    background: #3b5998;
+
+}
+
+.login-register ul {
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login-register li {
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+}
+
+.login-register button{
+    font-size: 1rem;
+    border-radius: 6px;
+    height: 4rem;
+    width: 10rem;
+
+}
+
+.login-register .separate-line{
+    font-size: 1rem;
+
+    color: black;
+
+
+}
+
+/*responsive*/
+/* Add a media query for screens smaller than 768px*/
+@media (max-width: 768px) {
+    .main-nav {
+        grid-template-columns: 1fr 3fr 1fr; /* Adjust the grid template for smaller screens */
+    }
+
+    .search-wrapper input[type="search"] {
+        width: 100%; /* Make the search input full width on smaller screens */
+        max-width: 300px; /* Limit the maximum width of the search input */
+    }
+
+    .login-register ul {
+        justify-content: center; /* Center align items on smaller screens */
+    }
+
+    .login-register .separate-line {
+        display: none; /* Hide the separate line on smaller screens */
+    }
+}
+
+.btnn{
+    width: 1rem;
+    height: 4rem;
+}
+
+.popup{
+    margin-left: -140rem;
+}
+
+
+
+
+
+
+
+

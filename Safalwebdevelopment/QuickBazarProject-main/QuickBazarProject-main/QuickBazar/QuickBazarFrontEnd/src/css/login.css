@@ -1,0 +1,110 @@
+
+
+
+.main-div {
+    width: 179rem; /* Occupy full width */
+    height: 90rem; /* Occupy full height */
+    display: grid;
+    background-color: skyblue;
+    grid-template-columns: 9rem 2fr 1fr 9rem;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;*/
+    /*margin-top: 8rem; !* Adjust margin-top as needed *!*/
+    /*overflow-y: hidden; !* Hide the vertical scrollbar *!*/
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+
+}
+
+.login-div {
+    background-color: transparent;
+    grid-column: 3 ; /* Align login-div across columns 2 and 3 */
+    grid-template-columns: 3fr 4fr;
+}
+
+.form-div{
+    grid-template-columns: 6rem 1fr 6rem;
+    grid-column:1;
+    background-color: transparent;
+    display: grid;
+    height:70rem;
+
+}
+
+.input-box{
+    grid-column: 2/3;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.username input{
+    grid-column: 2/3;
+    display: grid;
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    height: 5rem;
+    width: 40rem;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.iconmail {
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.iconpassword{
+    color: white;
+    font-size: 30px;
+}
+
+.password input{
+    grid-column: 2/3;
+    display: grid;
+    background-color: white;
+    font-family: Arial;
+    color: black;
+    height: 5rem;
+    width: 40rem;
+    border-radius: 6px;
+
+}
+
+.Remember-forget{
+    grid-column: 2/3;
+    display: grid;
+    font-family: Arial;
+    font-size: large;
+    color: black;
+    height: 5rem;
+    width: 40rem;
+    border-radius: 6px;
+    padding: 3rem;
+    align-items: center;
+
+}
+
+.submit-btn{
+    grid-column: 2/3;
+    height: 5rem;
+    width: 10rem;
+    margin-left: 17rem;
+    padding: 1rem;
+    margin-top: 1rem;
+
+}
+
+.register-text{
+    grid-column: 2/3;
+    font-size: large;
+    padding: 3rem;
+    color: black;
+
+}
+
+

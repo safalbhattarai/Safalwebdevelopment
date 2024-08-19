@@ -1,0 +1,44 @@
+.user-dashboard {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container > div {
+    flex: 1;
+}
+
+.left-panel,
+.right-panel {
+    background-color: skyblue; /* Just for demonstration */
+    width: 70rem;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+.middle-panel {
+    overflow-y: auto; /* Add scrollbar if necessary */
+    background-color: skyblue; /* Just for demonstration */
+
+}
+.middle-panel h1{
+    font-size: 5rem;
+    margin-top: 14rem;
+}
+
+.products{
+    margin: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.user_icon{
+    margin-top: 15rem;
+}
+
+.userInfo{
+    font-size: larger;
+    color: black;
+}

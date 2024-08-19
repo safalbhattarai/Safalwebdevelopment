@@ -1,0 +1,151 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* Form container */
+.form-div {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #45a049;
+}
+
+.select-subCategory{
+    position: absolute;   top: 5.6rem;  font-size: larger;
+    margin-top: 15rem;
+    color: black;
+    font-size: larger;
+    align-items: center;
+    width: 28rem;
+
+
+}
+
+.select-subCategory select{
+    width: 35vw;   height: 5.7vh; padding-left: 0.8rem; border-color: #281e07; border-radius: 7px;
+    background-color: red;
+    color: black;
+    font-size: larger;
+}
+
+.select-Category{
+    position: absolute;   top: 5.6rem;  font-size: larger;
+    margin-top: 8rem;
+    color: black;
+    font-size: larger;
+    align-items: center;
+    width: 28rem;
+
+}
+
+.select-Category select{
+    width: 35vw;   height: 5.7vh; padding-left: 0.8rem; border-color: #281e07; border-radius: 7px;
+    background-color: red;
+    color: black;
+    font-size: larger;
+}
+
+
+/* Input groups */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group select,
+.input-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    height: 5rem;
+    width: 45rem;
+    font-size: larger;
+}
+
+/* Submit button */
+.submit-btn {
+    text-align: center;
+}
+
+.submit-btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Error message */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+}
+
+
+
+
+
+
